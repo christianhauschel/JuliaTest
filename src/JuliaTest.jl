@@ -1,5 +1,7 @@
 module JuliaTest
 
+using Revise
+
 include("./Submodule1/Submodule1.jl")
 using .Submodule1: greet1
 export greet1
